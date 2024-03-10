@@ -1,0 +1,105 @@
+:root {
+    --main-header: 96px;
+    --text: center;
+    --link-color: blueviolet;
+    --link-hover-color: yellowgreen;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --secondary-color: #3a3f41;
+  }
+  
+  h1 {
+    font-size: var(--main-header);
+  }
+  
+  h3 {
+    color: var(--secondary-color);
+  }
+  
+  div {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-align: var(--text);
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: var(--link-color);
+  }
+  
+  a:hover {
+    color: var(--link-hover-color);
+  }
+  
+  .idontknowhowtoname {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .idontknowhowtoname a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .contact-link {
+    background: var(--link-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  
+  .about {
+    color: var(--link-color);
+    border: 1px solid var(--link-color);
+  }
+  
+  .about_link {
+    color: var(--link-color);
+    text-align: center;
+    display: block;
+  }
+  
+  .about_ps {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .about_ps p {
+    padding: 20px;
+    margin: 20px auto;
+    background: var(--secondary-color);
+    color: whitesmoke;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .divcontact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #contact {
+    display: flex;
+    justify-content: center;
+    color: var(--link-color);
+    font-size: 28px;
+    text-decoration: none;
+  }
+
+  .main-content {
+    margin-top: 100px;
+    padding-top: 100px;
+  }
