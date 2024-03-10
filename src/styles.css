@@ -103,3 +103,11 @@
     margin-top: 100px;
     padding-top: 100px;
   }
+
+  .body1 {
+    background-color: aquamarine;
+  }
+
+  .croimg {
+    width: max-content;
+  }
